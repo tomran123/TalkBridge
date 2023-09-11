@@ -15,6 +15,7 @@
 		E98BC2222A8215690028E920 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98BC2212A8215690028E920 /* SpeechManager.swift */; };
 		E98BC2242A821AD20028E920 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98BC2232A821AD20028E920 /* Launch Screen.storyboard */; };
 		E9B887E02A833B86009536AE /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9B887DF2A833B86009536AE /* ChatGPTSwift */; };
+		E9F5936F2A9F3B3E00EA715A /* SetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5936E2A9F3B3E00EA715A /* SetApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E98BC21A2A807B990028E920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E98BC2212A8215690028E920 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 		E98BC2232A821AD20028E920 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E9F5936E2A9F3B3E00EA715A /* SetApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E98BC2212A8215690028E920 /* SpeechManager.swift */,
 				E98BC2132A807B960028E920 /* EnglishConversationApp.swift */,
 				E98BC2152A807B960028E920 /* ContentView.swift */,
+				E9F5936E2A9F3B3E00EA715A /* SetApi.swift */,
 				E98BC2172A807B990028E920 /* Assets.xcassets */,
 				E98BC2192A807B990028E920 /* Preview Content */,
 				E98BC2232A821AD20028E920 /* Launch Screen.storyboard */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E98BC2222A8215690028E920 /* SpeechManager.swift in Sources */,
+				E9F5936F2A9F3B3E00EA715A /* SetApi.swift in Sources */,
 				E98BC2162A807B960028E920 /* ContentView.swift in Sources */,
 				E98BC2142A807B960028E920 /* EnglishConversationApp.swift in Sources */,
 			);
@@ -291,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EnglishConversation/Preview Content\"";
-				DEVELOPMENT_TEAM = FR9Z9J4J2J;
+				DEVELOPMENT_TEAM = XFT8P6WLKD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
@@ -324,7 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EnglishConversation/Preview Content\"";
-				DEVELOPMENT_TEAM = FR9Z9J4J2J;
+				DEVELOPMENT_TEAM = XFT8P6WLKD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";

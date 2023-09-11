@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct EnglishConversationApp: App {
+    @StateObject private var apimanager = APIManager()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(apimanager)
         }
     }
 }
