@@ -16,7 +16,7 @@ class APIManager: ObservableObject {
 
 struct SetApi: View {
     @EnvironmentObject var apiManager: APIManager // 引入环境对象
-    @State private var apiKey: String = "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"
+    @State private var apiKey: String = "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"
 
     var body: some View {
         VStack {
