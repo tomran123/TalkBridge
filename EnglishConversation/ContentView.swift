@@ -27,7 +27,7 @@ struct ContentView: View {
     
     
     @EnvironmentObject var apiManager: APIManager // 引入环境对象
-    var api = ChatGPTAPI(apiKey: "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")
+    var api = ChatGPTAPI(apiKey: "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")
     
     var body: some View {
         

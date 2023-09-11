@@ -10,7 +10,7 @@ import ChatGPTSwift
 
 
 class APIManager: ObservableObject {
-    @Published var api = ChatGPTAPI(apiKey: "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")
+    @Published var api = ChatGPTAPI(apiKey: "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")
 }
 
 
